@@ -90,6 +90,8 @@ insert into question(c_num,q_score,q_type,q_content) values(‘YGS’,10,‘简�
 insert into exam(e_name) values(‘期中考’);
 insert into content values(1,1);
 ```
+
+# 存储过程
 ```maria
 create view s_name_q_type
 as

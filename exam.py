@@ -44,7 +44,7 @@ class mywin(QMainWindow):
 
         selector=QComboBox(self)
         selector.setGeometry(20,80,100,30)
-        selector.addItems(['question','exam','content','subject','chapter'])        
+        selector.addItems(['question','exam','content','subject','chapter','teacher','student','test'])        
         selector.currentIndexChanged[str].connect(self.showtable)
 
         self.setGeometry(300,300,*shape)
